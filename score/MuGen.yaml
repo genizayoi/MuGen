@@ -1,0 +1,87 @@
+melody: 
+    pitches: [C6, D#6, F6, G#6, A#6]
+accompaniment:
+    - {chord: [C#4, F4, G#4, C5], duration: 4.00}
+    - {chord: [D#4, G4, A#4, C5], duration: 4.00}
+
+    - {chord: [F4, G#4, C5, D#5], duration: 8.00}
+
+    - {chord: [C#4, F4, G#4, C5], duration: 4.00}
+    - {chord: [D#4, G4, A#4, C5], duration: 4.00}
+
+    - {chord: [F4, G#4, C5, D#5], duration: 8.00}
+
+    - {chord: [C#4], duration: 0.50}
+    - {chord: [F4], duration: 0.50}
+    - {chord: [G#4], duration: 0.50}
+    - {chord: [C5], duration: 2.50}
+    - {chord: [D#4], duration: 0.50}
+    - {chord: [G4], duration: 0.50}
+    - {chord: [A#4], duration: 0.50}
+    - {chord: [C5], duration: 2.50}
+
+    - {chord: [F4], duration: 0.50}
+    - {chord: [G#4], duration: 0.50}
+    - {chord: [C5], duration: 0.50}
+    - {chord: [D#5], duration: 2.50}
+    - {chord: [F4], duration: 0.50}
+    - {chord: [G#4], duration: 0.50}
+    - {chord: [C5], duration: 0.50}
+    - {chord: [D#5], duration: 2.50}
+    
+    - {chord: [C#4], duration: 0.50}
+    - {chord: [F4], duration: 0.50}
+    - {chord: [G#4], duration: 0.50}
+    - {chord: [C5], duration: 2.50}
+    - {chord: [D#4], duration: 0.50}
+    - {chord: [G4], duration: 0.50}
+    - {chord: [A#4], duration: 0.50}
+    - {chord: [C5], duration: 2.50}
+
+    - {chord: [F4], duration: 0.50}
+    - {chord: [G#4], duration: 0.50}
+    - {chord: [C5], duration: 0.50}
+    - {chord: [D#5], duration: 2.50}
+    - {chord: [F4], duration: 0.50}
+    - {chord: [G#4], duration: 0.50}
+    - {chord: [C5], duration: 0.50}
+    - {chord: [D#5], duration: 2.50}
+
+    - {chord: [C#3, F3, G#3, C4], duration: 4.00}
+    - {chord: [D#3, G3, A#3, C4], duration: 4.00}
+
+    - {chord: [F3, G#3, C4, D#4], duration: 8.00}
+
+    - {chord: [C#3, F3, G#3, C4], duration: 4.00}
+    - {chord: [D#3, G3, A#3, C4], duration: 4.00}
+
+    - {chord: [F3, G#3, C4, D#4], duration: 4.00}
+    - {duration: 4.00}
+
+    - {chord: [C#2, C#3, F3, G#3, C4], duration: 1.50}
+    - {chord: [C#2, C#3, F3, G#3, C4], duration: 1.50}
+    - {chord: [C#2, C#3, F3, G#3, C4], duration: 1.00}
+    - {chord: [D#2, D#3, G3, A#3, C4], duration: 1.50}
+    - {chord: [D#2, D#3, G3, A#3, C4], duration: 1.50}
+    - {chord: [D#2, D#3, G3, A#3, C4], duration: 1.00}
+
+    - {chord: [C3, D#3, G3, A#3], duration: 1.50}
+    - {chord: [C3, D#3, G3, A#3], duration: 1.50}
+    - {chord: [C3, D#3, G3, A#3], duration: 1.00}
+    - {chord: [F3, G#3, C4, D#4], duration: 1.50}
+    - {chord: [F3, G#3, C4, D#4], duration: 1.50}
+    - {chord: [F3, G#3, C4, D#4], duration: 1.00}
+
+    - {chord: [C#2, C#3, F3, G#3, C4], duration: 1.50}
+    - {chord: [C#2, C#3, F3, G#3, C4], duration: 1.50}
+    - {chord: [C#2, C#3, F3, G#3, C4], duration: 1.00}
+    - {chord: [D#2, D#3, G3, A#3, C4], duration: 1.50}
+    - {chord: [D#2, D#3, G3, A#3, C4], duration: 1.50}
+    - {chord: [D#2, D#3, G3, A#3, C4], duration: 1.00}
+
+    - {chord: [C3, D#3, G3, A#3], duration: 1.50}
+    - {chord: [C3, D#3, G3, A#3], duration: 1.50}
+    - {chord: [C3, D#3, G3, A#3], duration: 1.00}
+    - {chord: [F3, G#3, C4, D#4], duration: 1.50}
+    - {chord: [F3, G#3, C4, D#4], duration: 1.50}
+    - {chord: [F3, G#3, C4, D#4], duration: 1.00}
