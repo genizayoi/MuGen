@@ -4,28 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.min.css">
     <title>MuGen</title>
     <script src="main.js"></script>
+    <style>button{width: 100%;}</style>
 </head>
 <body>
-    <select name="scoreFile" id="scoreFile">
-        <option value="score/MuGen.yaml">MuGen</option>
-    </select>
-    <select name="pitchDist" id="pitchDist">
-        <option value="uniform">Uniform</option>
-        <option value="normal">Normal</option>
-    </select>
-    <select name="durationDist" id="durationDist">
-        <option value="uniform">Uniform</option>
-        <option value="normal">Normal</option>
-    </select>
-    <select name="complexity" id="complexity">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-    </select>
-    <button id="play">Play</button>
-    <button id="stop">Stop</button>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <label for="scoreFile">Score</label>
+                <select name="scoreFile" id="scoreFile">
+                    <option value="score/MuGen.yaml">MuGen</option>
+                </select>
+                <label for="complexity">Complexity</label>
+                <select name="complexity" id="complexity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+            <div class="column">
+                <label for="durationDist">Duration</label>
+                <select name="durationDist" id="durationDist">
+                    <option value="uniform">Uniform</option>
+                    <option value="normal">Normal</option>
+                </select>
+                <label for="pitchDist">Pitch</label>
+                <select name="pitchDist" id="pitchDist">
+                    <option value="uniform">Uniform</option>
+                    <option value="normal">Normal</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <button id="play">Play</button>
+                <button id="stop">Stop</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
